@@ -11,7 +11,7 @@ interface Props{
 function Lista ({tarefas, selecionaTarefa}: Props){
     return(
         <aside className={style.listaTarefas}>
-            <h2>Tarefas do Bem :</h2>
+            <h2>Tarefas :</h2>
             <ul>
                 {tarefas.map(item=> (
                     <Item
