@@ -1,0 +1,19 @@
+:root {
+    --color-primary-30: #FCF8F3;
+    --color-primary-40: #F8DAE3;
+    --color-primary-50: #E9B6C8;
+    --color-primary-60: #CA87AF;
+    --color-primary-70: #AF5E99;
+    --color-primary-90: #582365;
+    --color-primary-90-alpha: 88, 35, 101;
+    
+    --colors-tema-accent-30: #DCC5FF;
+    --colors-tema-accent-60: #E6D5FC;
+    --colors-tema-accent-70: #613CAF;
+    --colors-tema-accent-90: #210066;
+
+    --color-highlight: var(--color-accent-60);
+    --color-default: var(--color-accent-70);
+    --color-hover: var(--color-accent-90);
+    --color-primary: var(--color-primary-90);
+}

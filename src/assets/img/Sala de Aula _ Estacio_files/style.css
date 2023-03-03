@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap'); :root{--text-font-family-heading: 'Exo', sans-serif!important;}.c-module-video__titles .c-topic-title h1, .c-card-video__description h2 {font-family: 'Exo', sans-serif!important;}
+
+.box-legenda{
+    margin-top:32px;
+}
+
+.linha-legenda-feedback{
+    border: 0px;
+    border-top: 1px solid var(--colors-default-neutral-30)
+}
+
+.text-legenda{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 20px;
+    color:var(--color-neutral-70);
+}
+
+.c-code-snipet .top .title {
+    text-transform: uppercase !important;
+}
+
+
+
+@media (min-width:300px) and (max-width:768px) {
+
+    .c-card-destaque__body .o-image{
+        border-radius: 0px !important;
+    }
+
+    .c-card-destaque__body .c-image{
+        margin: 0px -33px !important;
+        width: auto !important;
+        border-radius: 0px;
+    }
+
+    .full{
+        margin: 32px -40px !important;
+    }
+}
